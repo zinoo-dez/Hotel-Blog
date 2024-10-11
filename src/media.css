@@ -5,6 +5,9 @@
   .menubar {
     cursor: pointer;
   }
+  .menubar:hover {
+    transform: rotate(180deg);
+  }
   .navlinks {
     background-color: #fef9c3;
     width: 100%;

@@ -7,6 +7,7 @@
   box-sizing: border-box;
   /* font-size: 2rem; */
   font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
 }
 .container {
   width: 100%;
@@ -19,8 +20,16 @@
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: #efe3612e;
 }
 .active {
   border-radius: 0.5rem;
   background-color: #efe361;
+}
+.about {
+  width: 100%;
+  background-color: #f4f1ed;
+}
+.services {
+  width: 100%;
 }
