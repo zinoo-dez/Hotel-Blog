@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .navlinks {
+    display: none;
+  }
+  .menubar {
+    cursor: pointer;
+  }
+  .navlinks {
+    background-color: #fef9c3;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease;
+    /* transform: translate(-100%); */
+    clip-path: polygon(0 100%, 100% 0, 0 100%, 100% 0);
+    padding: 1rem 1.5rem;
+  }
+  .navlinks a {
+    display: block;
+    margin: 1rem 0;
+  }
+  .navlinks a:hover {
+    transform: scale(1.1);
+  }
+  .show {
+    /* transform: translate(0); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
