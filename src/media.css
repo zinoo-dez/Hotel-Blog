@@ -9,9 +9,9 @@
     transform: rotate(180deg);
   }
   .navlinks {
-    background-color: #fef9c3;
+    background-color: #f4f1ed;
     width: 100%;
-    top: 70px;
+    top: 64px;
     left: 0;
     right: 0;
     display: block;
@@ -24,7 +24,7 @@
   }
   .navlinks a {
     display: block;
-    margin: 1rem 0;
+    margin: 0.3rem 0;
   }
   .navlinks a:hover {
     transform: scale(1.1);
